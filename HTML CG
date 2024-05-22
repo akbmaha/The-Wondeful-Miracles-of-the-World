@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Secrets of Nature - The Wonderful Miracles of Nature</title>
+    <style>
+        body {
+            font-family: 'Arial, sans-serif';
+            background-color: #e0f7fa;
+            color: #004d40;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #004d40;
+            color: #e0f7fa;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+            font-family: 'Garamond, serif';
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #e0f7fa;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        .about, .blogs, .contact {
+            margin-bottom: 30px;
+        }
+        .about h2, .blogs h2, .contact h2 {
+            border-bottom: 2px solid #004d40;
+            display: inline-block;
+        }
+        .footer {
+            background-color: #004d40;
+            color: #e0f7fa;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .symbol {
+            font-family: 'Symbola';
+            font-size: 1.5em;
+            margin: 10px;
+        }
+        .mysterious-button {
+            background-color: #00796b;
+            border: none;
+            color: #e0f7fa;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+        .mysterious-button:hover {
+            background-color: #004d40;
+        }
+        .antique {
+            font-family: 'Garamond, serif';
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Secrets of Nature - The Wonderful Miracles of Nature</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#blogs">Blog Posts</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p class="antique">I am Mahara Ahmed, an MPhil in Human Resources Management. Loving nature and interested in exploring the wonderful and miraculous world that we have as a blessing of God. That's why I am writing these blogs to help people explore the secrets of nature with me, with proper research.</p>
+        </section>
+        <section id="blogs" class="blogs">
+            <h2>Blog Posts</h2>
+            <p class="antique">Explore my latest blog posts on the secrets of nature, categorized for easy navigation. Click on a category or post title to dive into the mysterious and wonderful world of nature.</p>
+            <!-- Add your blog post links here -->
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p class="antique">Feel free to reach out to me via email at <a href="mailto:akbmahara@gmail.com">akbmahara@gmail.com</a>. More social media links will be added soon!</p>
+        </section>
+    </div>
+    <footer class="footer">
+        <p class="antique">&copy; 2024 Mahara Ahmed. The Secrets of Nature. All rights reserved.</p>
+    </footer>
+</body>
+</html>
